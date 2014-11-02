@@ -1,0 +1,125 @@
+@media (max-width: 767px) {
+  #site_banner img {
+    width: 100%;
+  }
+
+  .side-story a i {
+    font-size: 10em;
+  }
+
+  .side-story a {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .center-container {
+    margin-top: 200px;
+  }
+
+  .side-story {
+    width: 245px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #000000;
+  background: url(../img/pattern.png) repeat 0 0;
+}
+
+.header {
+  color: #FFCC00;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 250px;
+}
+
+a { text-decoration: none; }
+
+/*.side-story {
+  width: 100%;
+}
+*/
+.side-story i {
+  font-size: 30px;
+  color: #706e6e;
+  margin-left: 5px;
+}
+
+.foundicon-facebook:hover {
+  color: #3b5998;
+}
+
+.foundicon-tumblr:hover {
+  color: #34526f;
+}
+
+.foundicon-pinterest:hover {
+  color: #910101;
+}
+
+.foundicon-google-plus:hover {
+  color: #db4a39;
+}
+
+.foundicon-twitter:hover {
+  color: #00a0d1;
+}
+
+#tumblr_post {
+  margin-top: 10px;
+  background-color: #FFF;
+  border-radius: 3px;
+  overflow: auto;
+  width: 600px;
+  position: relative;
+}
+
+#tumblr_post li {
+  float: left;
+  text-align: left;
+}
+
+.hilight-image img {
+  padding: 10px;
+  width: 100px;
+}
+
+.post {
+  float: left;
+  padding: 10px;
+  width: 450px;
+}
+
+.post .title {
+  text-decoration: underline;
+  color: #454442;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post .desc img {
+  width: 150px;
+}
+
+#demo {
+  display: none !important;
+}
+
+#site_banner {
+  text-align: center;
+}
+
+.center {
+  text-align: center
+}
